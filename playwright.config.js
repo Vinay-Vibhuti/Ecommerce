@@ -51,8 +51,8 @@ module.exports = defineConfig({
     },
 
     {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      name: 'iPhone',
+      use: { ...devices['iPhone 12 Pro Max'] },
     },
 
     /* Test against mobile viewports. */
