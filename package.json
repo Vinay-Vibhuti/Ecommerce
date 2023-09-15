@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "testCase": "npx playwright test Owcm_POM.spec.js --project=chromium --headed"},
   "keywords": [],
   "author": "",
   "license": "ISC",
