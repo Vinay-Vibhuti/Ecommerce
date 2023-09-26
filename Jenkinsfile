@@ -1,5 +1,5 @@
 pipeline{
-agent { any { image 'mcr.microsoft.com/playwright:v1.37.1-jammy' } }
+agent any
 stages{
 stage('test'){
 steps{
